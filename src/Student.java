@@ -55,7 +55,7 @@ public class Student {
         } while (true);
     }
 
-    //View balance
+    //View balanceES
     public void viewBalance() {
         System.out.println("Your balance is: $" + tuitionBalance);
     }
