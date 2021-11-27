@@ -46,7 +46,7 @@ public class Student {
             Scanner scanner = new Scanner(System.in);
             String course = scanner.nextLine();
             if (!course.equals("Q")) {
-                this.courses = this.courses + "\n > " + course;
+                this.courses = this.courses + "\n > " + course + ".";
                 this.tuitionBalance = tuitionBalance + costOfCourse;
             } else {
                 break;
